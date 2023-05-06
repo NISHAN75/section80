@@ -61,10 +61,101 @@ p {
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-
+/* img set */
+.box-bg-1{
+  background-image: url(./img/large.jpg);
+  background-position: center;
+  background-size: cover;
+}
+ .box-bg-2{
+  background-image: url(./img/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+ .box-bg-3{
+  background-image: url(./img/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+ .box-bg-4{
+  background-image: url(./img/bg3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+ .box-bg-5{
+  background-image: url(./img/bg4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* img set */
 /*  */
 /* welcome area */
 
 .section-padding{
   padding: 100px 0;
+}
+.section-title {
+  text-align: center;
+  font-size: 16px;
+  margin: 50px;
+}
+.row.nopadding .col-md-4 {
+  padding: 0;
+}
+.row.nopadding {
+  margin: 0;
+}
+.single-boxed-item {
+  height: 600px;
+  position: relative;
+}
+.single-boxed-item.hlaf-size {
+  height: 300px;
+}
+.box-item-hover {
+  position: relative;
+  z-index: 1;
+}
+.box-item-hover {
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  top: 5%;
+  width: 90%;
+  height: 90%;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+}
+.single-boxed-item:hover .box-item-hover{
+  visibility: visible;
+  opacity: 1;
+}
+.box-item-hover::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #333;
+  content: "";
+  opacity: 0.8;
+  z-index: -1;
+}
+.boxed-item-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.boxed-item-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+}
+i.fa-sharp.fa-solid.fa-magnifying-glass {
+  font-size: 18px;
+  color: green;
+  margin-bottom: 30px;
+  display: inline-block;
 }
