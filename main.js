@@ -1,9 +1,16 @@
-( function( $ ) {
-    // Init Skrollr
-    var s = skrollr.init({
-        render: function(data) {
-            //Debugging - Log the current scroll position.
-            //console.log(data.curTop);
-        }
-    });
-} )( jQuery );
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items:3,
+    dots:true,
+    nav:true,
+    autoplay:false,
+    animateOut: 'fadeOut',
+    navText:['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
+    loop:true,
+    margin:30
+  });
+});
+// $('#myTabs a').click(function (e) {
+//   e.preventDefault()
+//   $(this).tab('show')
+// })
