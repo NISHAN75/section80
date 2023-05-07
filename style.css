@@ -80,6 +80,52 @@ p {
 /* img set */
 /*  */
 /* welcome area */
+.mainmenu-area ul {
+  background: #243757;
+}
+.mainmenu-area ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.mainmenu-area ul li a {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  padding: 15px;
+  text-transform: uppercase;
+}
+.mainmenu-area ul li ul {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 150px;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+}
+.mainmenu-area ul li:hover a{
+  transition: 0.3s ease;
+}
+.mainmenu-area ul li:hover> a{
+  background: #1EB7C1;
+  color: #fff;
+}
+.mainmenu-area ul li:hover ul{
+  z-index: 2;
+  opacity: 1;
+  visibility: visible;
+}
+.mainmenu-area ul li ul li {
+  display: block;
+}
+.mainmenu-area ul li ul li a{
+  text-transform: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 .section-padding{
   padding: 50px 0;
