@@ -1,16 +1,10 @@
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
-    items:3,
-    dots:true,
-    nav:true,
-    autoplay:false,
-    animateOut: 'fadeOut',
-    navText:['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
-    loop:true,
-    margin:30
-  });
-});
-// $('#myTabs a').click(function (e) {
-//   e.preventDefault()
-//   $(this).tab('show')
-// })
+
+$(".theme-1-select").on('click', function(){
+  console.log('hi')
+  $("body").addClass("theme-2").removeClass("theme-1");
+  return false;
+})
+$(".theme-2-select").on('click', function(){
+  $("body").addClass("theme-1").removeClass("theme-2");
+  return false;
+})
