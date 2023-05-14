@@ -34,7 +34,7 @@ p {
   margin: 0;
   padding: 0;
 }
-img{
+img {
   max-width: 100%;
   height: auto;
 }
@@ -65,133 +65,84 @@ img{
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
+.project-bg-1 {
+  background-image: url(./img/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.project-bg-2 {
+  background-image: url(./img/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.project-bg-3 {
+  background-image: url(./img/bg3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.project-bg-4 {
+  background-image: url(./img/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.project-bg-5 {
+  background-image: url(./img/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.project-bg-6 {
+  background-image: url(./img/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.project-bg-7 {
+  background-image: url(./img/bg3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.project-bg-8 {
+  background-image: url(./img/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.project-bg-9 {
+  background-image: url(./img/bg3.jpg);
+  background-position: center;
+  background-size: cover;
+}
 /* design start */
 .section-padding {
   padding: 40px 0;
 }
-.section-title h2 {
-  font-size: 30px;
-  font-weight: normal;
+.service-list {
+  border-bottom: 1px solid #dddd;
+  border-left: 1px solid #ddd;
+
+}
+.single-service-box {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 5%;
   text-align: center;
+  transition: .3s;
 }
-.section-title {
-  margin-bottom: 50px;
-  text-transform: uppercase;
-  padding-bottom: 30px;
+.single-service-box:hover{
+  box-shadow: 0 30px 100px #999;
 }
-.testimonial-right-title {
-  text-transform: uppercase;
-  color: rgb(236, 236, 236);
-  font-weight: bold;
-  position: absolute;
-  z-index: 1;
-  margin: 0px;
-  padding: 0px;
-  transform: rotate(270deg);
-  left: -17%;
-  width: 400px;
-  top: 40%;
+.service-list .row {
+  margin-left: 0%;
 }
-.testimonial-right-title:after {
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  top: 50%;
-  right: 0px;
-  background: #F0F0F0;
-  content: "";
+.service-list .col-md-4 {
+  padding: 0;
 }
-h2.testimonial-right-title span {
-  background: #fff;
-  position: relative;
-  z-index: 2;
-  padding-right: 30px;
-  display: inline-block;
-}
-.testimonial-top{
-  text-align: center;
-  margin-top: 40px;
-  padding-top: 20px;
-  margin-bottom: 50px;
-}
-.testimonial-top img {
-  max-width: 150px;
-  display: inline-block;
-  margin-top: -35px;
-  max-height: 110px;
-}
-.testimonial-top h3 {
-  display: inline-block;
-  text-align: left;
+.single-service-box h2 {
   font-size: 20px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-left: 15px;
-  max-width: 180px;
-}
-.testimonial-top h3 span {
-  font-weight: normal;
-  text-transform: none;
-  font-size: 80%;
-  opacity: 0.5;
-}
-.testimonial-top h3 span {
-  font-weight: normal;
-  text-transform: none;
-  font-size: 80%;
-  opacity: 0.5;
-  display: inline-block;
-  padding-top: 10px;
-}
-
-.single-testimonial-item {
-  color: #888;
-  font-size: 15px;
-  line-height: 1.8;
-  box-shadow: 0px 0px 3px #d6cbcb;
-  padding: 40px 80px;
-  margin: 0px 50px;
-}
-
-.testimonial-content{
-  text-align: center;
-}
-ul.testimonial-author-name img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  margin-top: -27px;
-}
-ul.testimonial-author-name h3 {
-  display: inline-block;
-}
-ul.testimonial-author-name h3 {
-  display: inline-block;
-  font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  padding-left: 10px;
 }
-ul.testimonial-author-name h3 span {
-  font-size: 80%;
-  opacity: 0.5;
-  padding-top: 5px;
-  display: inline-block;
-  text-transform: none;
-}
-ul.testimonial-author-name li {
-  padding-top: 30px;
-  margin-bottom: 10px;
-  
-}
-ul.testimonial-author-name {
-  height: 260px;
-  overflow-y: scroll;
-}
-ul.testimonial-author-name {
-  height: 330px;
-  overflow-y: scroll;
-}
-.testimonial-wrapper {
-  position: relative;
+i.fa-solid.fa-box-open {
+  font-size: 35px;
+  color: #E44A45;
+  padding: 15px 0;
 }

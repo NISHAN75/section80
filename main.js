@@ -1,10 +1,9 @@
-
-$(".theme-1-select").on('click', function(){
-  console.log('hi')
-  $("body").addClass("theme-2").removeClass("theme-1");
-  return false;
-})
-$(".theme-2-select").on('click', function(){
-  $("body").addClass("theme-1").removeClass("theme-2");
-  return false;
-})
+// init Isotope
+let $grid = $('.project-list').isotope({
+  // options
+});
+// filter items on button click
+$('.project-flitter').on( 'click', 'li', function() {
+  let filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
