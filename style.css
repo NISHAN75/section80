@@ -112,37 +112,30 @@ img {
   background-size: cover;
 }
 /* design start */
-.section-padding {
-  padding: 40px 0;
+h1,h2,h3,h4,h5,h6{
+  color: #675098;
+  font-weight: 600;
 }
-.service-list {
-  border-bottom: 1px solid #dddd;
-  border-left: 1px solid #ddd;
-
-}
-.single-service-box {
-  border-top: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  padding: 5%;
+.section-title{
   text-align: center;
-  transition: .3s;
+  margin-bottom: 100px;
 }
-.single-service-box:hover{
-  box-shadow: 0 30px 100px #999;
+i.fa-solid.fa-camera-retro {
+  font-size: 50px;
+  padding: 20px 0;
 }
-.service-list .row {
-  margin-left: 0%;
+.features-wrap {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 215px;
 }
-.service-list .col-md-4 {
-  padding: 0;
+img.hand-png.img-fluid {
+  position: absolute;
+  right: -120px;
+  bottom: 0;
 }
-.single-service-box h2 {
+.features-content h4 {
   font-size: 20px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-i.fa-solid.fa-box-open {
-  font-size: 35px;
-  color: #E44A45;
-  padding: 15px 0;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
