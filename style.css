@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Roboto:wght@400;500;700&display=swap");
 
 /* font-family: 'Nothing You Could Do', cursive;
 font-family: 'Roboto', sans-serif; */
@@ -69,62 +69,65 @@ img {
 }
 /* start design */
 
-
-.feature-1 .feature-bg{
+.feature-1 .feature-bg {
   background-image: url(./img/bg1.jpg);
   background-position: center;
   background-size: cover;
 }
-.feature-2 .feature-bg{
+.feature-2 .feature-bg {
   background-image: url(./img/bg2.jpg);
   background-position: center;
   background-size: cover;
 }
-.feature-3 .feature-bg{
+.feature-3 .feature-bg {
+  background-image: url(./img/bg3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.single-portfolio-item {
   background-image: url(./img/bg3.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.food-bg-1{
+.food-bg-1 {
   background-image: url(./img/bg1.jpg);
   background-position: center;
   background-size: cover;
 }
-.food-bg-2{
+.food-bg-2 {
   background-image: url(./img/bg2.jpg);
   background-position: center;
   background-size: cover;
 }
-.food-bg-3{
+.food-bg-3 {
   background-image: url(./img/bg3.jpg);
   background-position: center;
   background-size: cover;
 }
-.feature-4 .feature-bg{
+.feature-4 .feature-bg {
   background-image: url(./img/bg1.jpg);
   background-position: center;
   background-size: cover;
 }
-.feature-5 .feature-bg{
+.feature-5 .feature-bg {
   background-image: url(./img/bg2.jpg);
   background-position: center;
   background-size: cover;
 }
-
 
 .single-feature-item {
   position: relative;
   z-index: 1;
 }
-.feature-bg{
- position: absolute;
- left: 25%;
- width: 50%;  
- height: 100%;
- content: "";
- z-index: -1;
- bottom: -50px;
+.feature-bg {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+  bottom: -50px;
 }
 .single-feature-item-text {
   background: #fff;
@@ -134,16 +137,16 @@ img {
   position: relative;
   z-index: 1;
   padding-left: 140px;
-  border-bottom: 2px solid #C17C66;
+  border-bottom: 2px solid #c17c66;
 }
-.feature-2 .single-feature-item-text{
-  border-color: #20966F;
+.feature-2 .single-feature-item-text {
+  border-color: #20966f;
 }
-.feature-3 .single-feature-item-text{
-  border-color: #A486C2;
+.feature-3 .single-feature-item-text {
+  border-color: #a486c2;
 }
-.feature-3 .single-feature-item-text{
-  border-color: #BEA581;
+.feature-3 .single-feature-item-text {
+  border-color: #bea581;
 }
 .single-feature-item-text h2 {
   font-size: 22px;
@@ -158,7 +161,6 @@ img {
   opacity: 0.3;
   z-index: 1;
   font-weight: 700;
- 
 }
 .feature-no::after {
   position: absolute;
@@ -179,13 +181,13 @@ img {
   margin-left: -15px;
   margin-right: -15px;
 }
-.food-box-info h3{
-  font-family: 'Nothing You Could Do', cursive;
+.food-box-info h3 {
+  font-family: "Nothing You Could Do", cursive;
 }
 .food-box-info {
-  background: #F3F3F3;
+  background: #f3f3f3;
   padding: 30px;
-  border-top: 4px solid #D4A25A;
+  border-top: 4px solid #d4a25a;
   margin-top: -100px;
   text-align: center;
   margin-left: 15px;
@@ -196,21 +198,121 @@ p.food-price span {
   font-size: 200%;
   font-weight: 700;
 }
-.single-food-box:hover .food-box-info{
-  background-color: #D4A25A;
+.single-food-box:hover .food-box-info {
+  background-color: #d4a25a;
   color: #fff;
 }
 a.btn-one {
-  border: 1px solid #D4A25A;
+  border: 1px solid #d4a25a;
   padding: 5px 30px;
   display: inline-block;
   margin-top: 20px;
   font-size: 18px;
   font-weight: 400;
-  color: #D4A25A;
+  color: #d4a25a;
   transition: 0.3s ease;
 }
-.single-food-box:hover a.btn-one{
+.single-food-box:hover a.btn-one {
   border-color: #fff;
+  color: #fff;
+}
+
+/* section design 80 */
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.mainmenu ul {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+}
+.mainmenu li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  padding: 20px;
+  display: block;
+  padding-right: 0;
+  padding-left: 40px;
+}
+.hero-area {
+  background: #1D1F20;
+  color: #fff;
+  padding-top: 180px;
+  padding-bottom: 220px;
+}
+.hero-area a , p {
+  color: #777;
+}
+.hero-area h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.hero-area h2 span {
+  color: #DAB432;
+}
+.header-area.header-absolute , .header-area.header-absolute a  {
+  color: #fff;
+}
+.header-area.header-absolute{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 50px 0;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.section-padding.yellow-bg {
+  background: #E2BA36;
+  color: #fff;
+}
+.single-portfolio-item {
+  height: 300px;
+  width: 60%;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.single-portfolio-item.small-item {
+  width: 36%;
+}
+.section-padding.dark-bg {
+  background: #1D1F20;
+  color: #fff;
+}
+.section-padding.dark-bg h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+a.btn-tow {
+  display: inline-block;
+  border: 1px solid #DDB635;
+  padding: 10px 60px;
+  margin-top: 40px;
+  color: #DDB635;
+  transition: 0.3s ease;
+}
+a.btn-tow:hover{
+  background: #fff;
+  color: #000;
+}
+.footer-area {
+  background: #1D1F20;
+  color: #777;
+  padding: 10px 0;
+}
+.social-icons.text-right a {
+  font-size: 20px;
+  padding-left: 15px;
+  transition: 0.2s ease;
+}
+.social-icons.text-right a:hover {
   color: #fff;
 }
